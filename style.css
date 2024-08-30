@@ -1,0 +1,44 @@
+
+
+body {
+background-color: rgb(121, 121, 121);
+}
+
+h1 {
+color: rgb(0, 0, 0) ;
+text-align: center;
+
+}
+
+
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.imagens img{
+    width: 500px;
+    max-width: 600px;
+    height: auto;
+    border-bottom: 100px;
+    border-color: black;
+    object-fit: cover;
+}
+
+.container {
+    width: 100%; /* Ajuste a largura do contêiner */
+    height: 70%; /* Ajuste a altura do contêiner */
+    padding: 10px;
+    overflow: auto; /* Permite rolagem se o conteúdo for maior que o contêiner */
+    
+}
+
+h4 {
+
+    color: black;
+    text-align: center;
+
+}
